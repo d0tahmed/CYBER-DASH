@@ -1,0 +1,21 @@
+# Python Environment
+venv/
+env/
+.venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# VSCode / IDE Settings
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Secrets / Config (Future-proofing in case you add API keys later)
+.env
+*.pem
