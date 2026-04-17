@@ -19,8 +19,8 @@ CyberDash is a lightweight, terminal-based Threat Intelligence Dashboard. It asy
 
 1. Clone the repository and navigate into the directory:
    ```bash
-   git clone [https://github.com/yourusername/cyber-dash.git](https://github.com/yourusername/cyber-dash.git)
-   cd cyber-dash
+   git clone [https://github.com/yourusername/cyber-dash.git](https://github.com/d0tahmed/CYBER-DASH.git)
+   cd CYBER-DASH
 
     Create and activate a virtual environment:
     Bash
@@ -32,6 +32,9 @@ CyberDash is a lightweight, terminal-based Threat Intelligence Dashboard. It asy
     Bash
 
     pip install textual feedparser
+    
+     RUN:
+     python3 dashboard.py 
 
 Usage
 
