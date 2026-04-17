@@ -1,21 +1,34 @@
-# Python Environment
+# ── Python Environment ────────────────────────
 venv/
 env/
 .venv/
 
-# Byte-compiled / optimized / DLL files
+# ── Byte-compiled / cache ──────────────────────
 __pycache__/
 *.py[cod]
 *$py.class
+*.pyo
 
-# VSCode / IDE Settings
+# ── CyberDash runtime outputs ─────────────────
+intel_export_*.txt
+*.log
+
+# ── IDE / Editor ──────────────────────────────
 .vscode/
 .idea/
+*.swp
+*.swo
+*~
 
-# OS generated files
+# ── OS generated ──────────────────────────────
 .DS_Store
 Thumbs.db
+desktop.ini
 
-# Secrets / Config (Future-proofing in case you add API keys later)
+# ── Secrets / Config ──────────────────────────
 .env
 *.pem
+*.key
+*.crt
+secrets.json
+config.local.*
